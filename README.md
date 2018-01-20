@@ -8,6 +8,9 @@ groovy ImportPojo.groovy
 
 # POJO オブジェクトから CSV へエクスポートする場合
 groovy ExportPojo.groovy
+
+# CSV ファイルを POJO へインポートし、その POJO からエクスポートする場合
+groovy UsePojo.groovy
 ```
 
 ## 使用しているライブラリ
